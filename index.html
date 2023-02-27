@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR Code Scanner</title>
-    <script src="./node_modules//html5-qrcode/html5-qrcode.min.js"></script>
     <style>
         main {
             display: flex;
@@ -30,7 +29,7 @@
         <div id="reader"></div>
         <div id="result"></div>
     </main>
-
+    <script src="./node_modules//html5-qrcode/html5-qrcode.min.js"></script>
     <script>
         //qr code scanner
         const scanner = new Html5QrcodeScanner('reader', {
